@@ -21,7 +21,7 @@ public class RemovingLeadingTrailingWhiteSpacesFromAString
 			}
 		}
 		str = str.substring(fChar, str.length());
-		System.out.println(str);
+		System.out.println(str+"  :  "+str.length());
 		for(int i=str.length()-1; i>=0; i--)
 		{
 			if(str.charAt(i)==' ')
@@ -35,7 +35,7 @@ public class RemovingLeadingTrailingWhiteSpacesFromAString
 			}
 		}
 		str = str.substring(0,lChar+1);
-		System.out.println(str);
+		System.out.println(str+"  :  "+str.length());
 		
 	}
 }
